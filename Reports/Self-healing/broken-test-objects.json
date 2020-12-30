@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login - My Store/input_Mr._id_gender",
+      "brokenLocator": "//input[@id\u003d\u0027id_gender1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login - My Store/input_Mr._id_gender_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login - My Store/input__customer_firstname",
+      "brokenLocator": "//input[@id\u003d\u0027customer_firstname\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login - My Store/input__customer_firstname_position.png"
+    }
+  ]
+}

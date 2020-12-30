@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_6656" time="77.655" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="TS_6656" tests="2" failures="0" errors="0" time="77.655" skips="0" timestamp="2020-12-30 17:38:44" hostname="xmichalx- - xmichalx" id="Test Suites/TS_6656">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\xmichalx-\\Documents\\katalon\\testowanie\\Reports\\20201230_173838\\TS_6656\\20201230_173839"/>
+         <property name="logFiles" value="C:\\Users\\xmichalx-\\Documents\\katalon\\testowanie\\Reports\\20201230_173838\\TS_6656\\20201230_173839\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="xmichalx- - xmichalx"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Firefox 84.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="79f638ab-dcb7-4172-8bea-82a832dfc25d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TC_6656 - Rejestracja/TC_6656 - Rejestracja nowego konta" time="27.632" classname="Test Cases/TC_6656 - Rejestracja/TC_6656 - Rejestracja nowego konta" status="PASSED">
+         <system-out><![CDATA[2020-12-30 17:38:45 - [TEST_CASE][PASSED] - Test Cases/TC_6656 - Rejestracja/TC_6656 - Rejestracja nowego konta: Test Cases/TC_6656 - Rejestracja/TC_6656 - Rejestracja nowego konta
+
+2020-12-30 17:38:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-30 17:38:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-30 17:38:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-30 17:38:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-30 17:38:50 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account"): Navigate to 'http://automationpractice.com/index.php?controller=authentication&back=my-account' successfully
+
+2020-12-30 17:38:55 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'XMICHALX', ip: '192.168.1.116', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 1248, moz:profile: C:\Users\xmichalx-\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4fedb28d-6a0c-44c7-8dfe-bd0aebca164d
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-30 17:38:55 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php?controller=authentication&back=my-account' successfully
+
+2020-12-30 17:38:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/input_Email address_email_create"), email): Text 'asdf24@w2.pl' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_create'
+
+2020-12-30 17:38:56 - [MESSAGE][PASSED] - Text 'asdf24@w2.pl' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_create'
+
+2020-12-30 17:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Create an account")): Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2020-12-30 17:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2020-12-30 17:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/input_Mr._id_gender")): Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2020-12-30 17:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2020-12-30 17:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__customer_firstname"), name): Text 'Jan' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2020-12-30 17:38:59 - [MESSAGE][PASSED] - Text 'Jan' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2020-12-30 17:38:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__customer_lastname"), surname): Text 'Kowalski' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2020-12-30 17:38:59 - [MESSAGE][PASSED] - Text 'Kowalski' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2020-12-30 17:38:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login - My Store/input__passwd"), password): Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2020-12-30 17:39:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2020-12-30 17:39:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Login - My Store/select_-12345678910111213141516171819202122_51e29d"), dayBorn, true): All options with value '18' are selected in object 'Object Repository/Page_Login - My Store/select_-12345678910111213141516171819202122_51e29d'  using regular expression
+
+2020-12-30 17:39:02 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/Page_Login - My Store/select_-12345678910111213141516171819202122_51e29d'  using regular expression
+
+2020-12-30 17:39:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAprilMayJuneJul_702766"), monthBorn, true): All options with value '11' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAprilMayJuneJul_702766'  using regular expression
+
+2020-12-30 17:39:03 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Page_Login - My Store/select_-JanuaryFebruaryMarchAprilMayJuneJul_702766'  using regular expression
+
+2020-12-30 17:39:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Login - My Store/select_-20202019201820172016201520142013201_ed0939"), yearBorn, true): All options with value '1994' are selected in object 'Object Repository/Page_Login - My Store/select_-20202019201820172016201520142013201_ed0939'  using regular expression
+
+2020-12-30 17:39:05 - [MESSAGE][PASSED] - All options with value '1994' are selected in object 'Object Repository/Page_Login - My Store/select_-20202019201820172016201520142013201_ed0939'  using regular expression
+
+2020-12-30 17:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__address1"), street): Text 'Ulica Street 45/1' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2020-12-30 17:39:05 - [MESSAGE][PASSED] - Text 'Ulica Street 45/1' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2020-12-30 17:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__city"), city): Text 'Las Vegas' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2020-12-30 17:39:06 - [MESSAGE][PASSED] - Text 'Las Vegas' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2020-12-30 17:39:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141"), stateIndex, true): All options with value '28' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'  using regular expression
+
+2020-12-30 17:39:07 - [MESSAGE][PASSED] - All options with value '28' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'  using regular expression
+
+2020-12-30 17:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__postcode"), postCode): Text '55678' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2020-12-30 17:39:08 - [MESSAGE][PASSED] - Text '55678' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2020-12-30 17:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__phone_mobile"), phone): Text '611622633' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2020-12-30 17:39:08 - [MESSAGE][PASSED] - Text '611622633' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2020-12-30 17:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-30 17:39:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_6656 - Rejestracja/TC_6656 - Weryfikacja działania walidacji w formularzu rejestracji" time="49.196" classname="Test Cases/TC_6656 - Rejestracja/TC_6656 - Weryfikacja działania walidacji w formularzu rejestracji" status="PASSED">
+         <system-out><![CDATA[2020-12-30 17:39:12 - [TEST_CASE][PASSED] - Test Cases/TC_6656 - Rejestracja/TC_6656 - Weryfikacja działania walidacji w formularzu rejestracji: Test Cases/TC_6656 - Rejestracja/TC_6656 - Weryfikacja działania walidacji w formularzu rejestracji
+
+2020-12-30 17:39:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-30 17:39:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-12-30 17:39:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-30 17:39:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-30 17:39:18 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account"): Navigate to 'http://automationpractice.com/index.php?controller=authentication&back=my-account' successfully
+
+2020-12-30 17:39:25 - [MESSAGE][ERROR] - Unable to locate element: #katalon_only_element
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'XMICHALX', ip: '192.168.1.116', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 7464, moz:profile: C:\Users\xmichalx-\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 79f638ab-dcb7-4172-8bea-82a832dfc25d
+*** Element info: {Using=id, value=katalon_only_element}
+
+2020-12-30 17:39:25 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php?controller=authentication&back=my-account' successfully
+
+2020-12-30 17:39:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Login - My Store/span_Create an account"), 0): Object 'Object Repository/Page_Login - My Store/span_Create an account' is visible
+
+2020-12-30 17:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-30 17:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - My Store/span_Create an account' is visible
+
+2020-12-30 17:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Create an account")): Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2020-12-30 17:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2020-12-30 17:39:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Login - My Store/div_Invalid email address")): Object 'Object Repository/Page_Login - My Store/div_Invalid email address' is visible
+
+2020-12-30 17:39:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - My Store/div_Invalid email address' is visible
+
+2020-12-30 17:39:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_Invalid email address"), "Invalid email address."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_Invalid email address' are matched.
+
+2020-12-30 17:39:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_Invalid email address' are matched.
+
+2020-12-30 17:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - My Store/input_Email address_email_create"), email): Text 'asdf25@w2.pl' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_create'
+
+2020-12-30 17:39:28 - [MESSAGE][PASSED] - Text 'asdf25@w2.pl' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email_create'
+
+2020-12-30 17:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Create an account")): Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2020-12-30 17:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Create an account' is clicked on
+
+2020-12-30 17:39:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Login - My Store/form_Your personal informationTitleMr.Mrs.F_0dfd37")): Object 'Object Repository/Page_Login - My Store/form_Your personal informationTitleMr.Mrs.F_0dfd37' is visible
+
+2020-12-30 17:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login - My Store/form_Your personal informationTitleMr.Mrs.F_0dfd37' is visible
+
+2020-12-30 17:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 8 errors"), "There are 8 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 8 errors' are matched.
+
+2020-12-30 17:39:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 8 errors' are matched.
+
+2020-12-30 17:39:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_You must register at least one phone number"), "You must register at least one phone number."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_You must register at least one phone number' are matched.
+
+2020-12-30 17:39:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_You must register at least one phone number' are matched.
+
+2020-12-30 17:39:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__phone_mobile"), phone): Text '611622633' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2020-12-30 17:39:35 - [MESSAGE][PASSED] - Text '611622633' is set on object 'Object Repository/Page_Login - My Store/input__phone_mobile'
+
+2020-12-30 17:39:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 7 errors"), "There are 7 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 7 errors' are matched.
+
+2020-12-30 17:39:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 7 errors' are matched.
+
+2020-12-30 17:39:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_lastname is required"), "lastname is required."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_lastname is required' are matched.
+
+2020-12-30 17:39:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_lastname is required' are matched.
+
+2020-12-30 17:39:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__customer_lastname"), surname): Text 'Kowalski' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2020-12-30 17:39:39 - [MESSAGE][PASSED] - Text 'Kowalski' is set on object 'Object Repository/Page_Login - My Store/input__customer_lastname'
+
+2020-12-30 17:39:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 6 errors"), "There are 6 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 6 errors' are matched.
+
+2020-12-30 17:39:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 6 errors' are matched.
+
+2020-12-30 17:39:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_firstname is required"), "firstname is required."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_firstname is required' are matched.
+
+2020-12-30 17:39:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_firstname is required' are matched.
+
+2020-12-30 17:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__customer_firstname"), name): Text 'Jan' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2020-12-30 17:39:43 - [MESSAGE][PASSED] - Text 'Jan' is set on object 'Object Repository/Page_Login - My Store/input__customer_firstname'
+
+2020-12-30 17:39:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 5 errors"), "There are 5 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 5 errors' are matched.
+
+2020-12-30 17:39:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 5 errors' are matched.
+
+2020-12-30 17:39:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_address1 is required"), "address1 is required."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_address1 is required' are matched.
+
+2020-12-30 17:39:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_address1 is required' are matched.
+
+2020-12-30 17:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__address1"), street): Text 'Ulica Street 45/1' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2020-12-30 17:39:47 - [MESSAGE][PASSED] - Text 'Ulica Street 45/1' is set on object 'Object Repository/Page_Login - My Store/input__address1'
+
+2020-12-30 17:39:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 4 errors"), "There are 4 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 4 errors' are matched.
+
+2020-12-30 17:39:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 4 errors' are matched.
+
+2020-12-30 17:39:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_city is required"), "city is required."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_city is required' are matched.
+
+2020-12-30 17:39:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_city is required' are matched.
+
+2020-12-30 17:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__city"), city): Text 'Las Vegas' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2020-12-30 17:39:50 - [MESSAGE][PASSED] - Text 'Las Vegas' is set on object 'Object Repository/Page_Login - My Store/input__city'
+
+2020-12-30 17:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 3 errors"), "There are 3 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 3 errors' are matched.
+
+2020-12-30 17:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 3 errors' are matched.
+
+2020-12-30 17:39:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_The ZipPostal code youve entered is inva_8cea72"), "The Zip/Postal code you've entered is invalid. It must follow this format: 00000"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_The ZipPostal code youve entered is inva_8cea72' are matched.
+
+2020-12-30 17:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_The ZipPostal code youve entered is inva_8cea72' are matched.
+
+2020-12-30 17:39:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input__postcode"), postCode): Text '55678' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2020-12-30 17:39:53 - [MESSAGE][PASSED] - Text '55678' is set on object 'Object Repository/Page_Login - My Store/input__postcode'
+
+2020-12-30 17:39:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There are 2 errors"), "There are 2 errors"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 2 errors' are matched.
+
+2020-12-30 17:39:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There are 2 errors' are matched.
+
+2020-12-30 17:39:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_This country requires you to choose a State"), "This country requires you to choose a State."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_This country requires you to choose a State' are matched.
+
+2020-12-30 17:39:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_This country requires you to choose a State' are matched.
+
+2020-12-30 17:39:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141"), stateIndex, true): All options with value '28' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'  using regular expression
+
+2020-12-30 17:39:57 - [MESSAGE][PASSED] - All options with value '28' are selected in object 'Object Repository/Page_Login - My Store/select_-AlabamaAlaskaArizonaArkansasCalifor_c52141'  using regular expression
+
+2020-12-30 17:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:39:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/p_There is 1 error"), "There is 1 error"): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There is 1 error' are matched.
+
+2020-12-30 17:39:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/p_There is 1 error' are matched.
+
+2020-12-30 17:39:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login - My Store/li_passwd is required"), "passwd is required."): Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_passwd is required' are matched.
+
+2020-12-30 17:39:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login - My Store/li_passwd is required' are matched.
+
+2020-12-30 17:39:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login - My Store/input__passwd"), password): Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2020-12-30 17:40:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My Store/input__passwd'
+
+2020-12-30 17:40:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Register")): Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Register' is clicked on
+
+2020-12-30 17:40:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_My account - My Store/a_Sign out")): Object 'Object Repository/Page_My account - My Store/a_Sign out' is visible
+
+2020-12-30 17:40:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account - My Store/a_Sign out' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-30 17:38:44 - [TEST_SUITE][INCOMPLETE] - TS_6656: null]]></system-out>
+      <system-err><![CDATA[2020-12-30 17:38:44 - [TEST_SUITE][INCOMPLETE] - TS_6656: null]]></system-err>
+   </testsuite>
+</testsuites>
