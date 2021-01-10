@@ -19,6 +19,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Login - My Store/input__customer_firstname_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts",
+      "brokenLocator": "//tr[@id\u003d\u0027product_1_1_0_0\u0027]/td[2]/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Total\u0027])[6]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order - My Store/a_Faded Short Sleeve T-shirts_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order - My Store/input_16.51_quantity_1_1_0_0",
+      "brokenLocator": "//input[@name\u003d\u0027quantity_1_1_0_0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[5]/input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order - My Store/input_16.51_quantity_1_1_0_0_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Order - My Store/a_ProductName",
+      "brokenLocator": "//tr[@id\u003d\u0027product_1_1_0_0\u0027]/td[2]/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Total\u0027])[6]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Order - My Store/a_ProductName_neighbor.png"
     }
   ]
 }

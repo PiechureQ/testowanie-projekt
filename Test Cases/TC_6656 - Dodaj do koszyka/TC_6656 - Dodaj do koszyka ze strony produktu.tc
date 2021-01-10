@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_6656 - Dodaj do koszyka ze strony produktu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc715f98-b1fd-45a0-87c9-aa055b30dce5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1754f6e7-9836-47b2-a206-2de58330b9c2</id>
+      <masked>false</masked>
+      <name>productName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>cb495a11-be1c-4088-9f16-23269a2b1561</id>
+      <masked>false</masked>
+      <name>expectedQuantity</name>
+   </variable>
+</TestCaseEntity>

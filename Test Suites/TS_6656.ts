@@ -185,4 +185,40 @@
          <variableId>0fbff45c-7cb3-435a-a89f-740165658b54</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>60a99809-020a-4fee-ab24-a6394a19673f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_6656 - Dodaj do koszyka/TC_6656 - Dodaj do koszyka ze strony głównej</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>90278284-1551-4e55-bc3f-bd09e4ebc9b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6684da1c-c9df-4932-b44f-f283d04bf741</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2dcb4e65-396b-4ace-809c-9fde21947966</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_6656 - Dodaj do koszyka/TC_6656 - Dodaj do koszyka ze strony produktu</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1754f6e7-9836-47b2-a206-2de58330b9c2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb495a11-be1c-4088-9f16-23269a2b1561</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

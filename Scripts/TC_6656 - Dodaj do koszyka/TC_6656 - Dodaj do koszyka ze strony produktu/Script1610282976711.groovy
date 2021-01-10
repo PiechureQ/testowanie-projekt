@@ -18,20 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://automationpractice.com/index.php')
+WebUI.navigateToUrl('http://automationpractice.com/index.php?id_product=2&controller=product')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_My Store/li_Quick view16.51Faded Short Sleeve T-shir_47dcca'), 
-    0)
+productName = WebUI.getText(findTestObject('Object Repository/Page_Blouse - My Store/h1_Blouse'))
 
-productName = WebUI.getText(findTestObject('Object Repository/Page_My Store/a_Faded Short Sleeve T-shirts'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Blouse - My Store/select_SML'), '2', true)
 
-WebUI.mouseOver(findTestObject('Object Repository/Page_My Store/a_Faded Short Sleeve T-shirts'))
+WebUI.click(findTestObject('Object Repository/Page_Blouse - My Store/a_Color_White'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_My Store/span_Add to cart'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Blouse - My Store/span_Add to cart'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_My Store/span_Add to cart'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Blouse - My Store/span_Add to cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_My Store/span_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Page_Blouse - My Store/span_Add to cart'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_My Store/div_Product successfully added to your shop_ab4221'), 
     0)
